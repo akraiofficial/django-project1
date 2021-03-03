@@ -1,0 +1,8 @@
+from django.core import validators
+from django import forms
+form .models import User
+
+class StudentRegistration(forms.ModelForm):
+	class Meta:
+		model = User
+		feilds = ['name', 'email', 'password']
